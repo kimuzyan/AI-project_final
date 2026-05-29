@@ -1,0 +1,102 @@
+﻿관계타입,성분A,성분B,심각도,신뢰도,메커니즘유형,상세메커니즘,출처타입,학술참조
+HARD,아스코빅애씨드,나이아신아마이드,high,0.85,pH_incompatibility,고온/장시간 결합 시 나이아신산으로 분해되어 자극 유발 (pH 3.5 vs 7.0),paper,"Kawada A et al., J Dermatol Sci, 2008; Brooks JD et al., J Invest Dermatol, 2024"
+HARD,아스코빅애씨드,암모늄은아연알루미늄실리케이트,high,0.88,metal_oxidation,"금속 이온(Ag, Zn)이 비타민C 산화 촉매 작용 → 갈변 및 효능 손실",paper,"Lin JY et al., J Invest Dermatol, 2005"
+HARD,아스코빅애씨드,아세틸헥사펩타이드-8,high,0.9,pH_incompatibility,산성 비타민C(pH~3.5) + 중성 펩타이드(pH~7) 결합 시 펩타이드 결합 가수분해,paper,"Schagen SK, Cosmetics, 2017"
+HARD,아스코빅애씨드,코퍼트라이펩타이드-1,high,0.92,metal_oxidation,구리 이온(Cu2+)이 비타민C 산화를 강력히 촉진 → 양쪽 효능 완전 손실,paper,"Pickart L, Curr Med Chem, 2008"
+HARD,아스코빅애씨드,마그네슘아스코빌포스페이트,medium,0.75,redundancy_competition,비타민C 유도체 중복으로 활성 농도 분산 및 pH 호환 범위 충돌,blog,"Lab Muffin Beauty Science (Michelle Wong PhD), 2020"
+HARD,아스코빅애씨드,리모넨,medium,0.72,oxidation,리모넨 광산화물(LimOX)이 비타민C 산화를 가속화,paper,"Karlberg AT et al., Contact Dermatitis, 2014"
+HARD,아스코빅애씨드,팔미토일펜타펩타이드-4,high,0.88,pH_incompatibility,Matrixyl 활성 pH 범위(6-8)와 비타민C(3-3.5) 간 호환성 충돌,paper,"Fields K et al., Clin Pharmacol Ther, 2009"
+HARD,아스코빅애씨드,에스에이치-올리고펩타이드-1,high,0.93,pH_oxidation,강산성에서 EGF 단백질 변성 + 산화로 양쪽 활성 손실,paper,"Eskens O & Amin S, Int J Cosmet Sci, 2021"
+HARD,레티놀,글라이콜릭애씨드,high,0.95,pH_degradation,"낮은 pH(<4)에서 레티놀 분해 가속, 자극 증가",paper,"Mukherjee S et al., Clin Interv Aging, 2006"
+HARD,레티놀,살리실릭애씨드,high,0.9,pH_degradation,BHA 산성 환경(pH 3-4)에서 레티놀 안정성 저하,paper,"Riahi RR et al., J Cutan Aesthet Surg, 2016"
+HARD,레티놀,벤조일퍼옥사이드,high,0.97,oxidation_destruction,BPO 강산화 작용으로 레티놀 분자 파괴 → 완전 불활성화,paper,"Martin B et al., Br J Dermatol, 1998"
+HARD,레티놀,아스코빅애씨드,medium,0.78,pH_incompatibility,"pH 호환 범위 차이로 양쪽 효능 저하, 시간 분리 권장",paper,"Riahi RR et al., J Cutan Aesthet Surg, 2016"
+HARD,트레티노인,벤조일퍼옥사이드,high,0.98,photodegradation,"광존재 하에서 트레티노인 산화 분해, 활성 80% 이상 손실",paper,"Martin B et al., Br J Dermatol, 1998"
+HARD,아다팔렌,벤조일퍼옥사이드,low,0.4,minor_only,아다팔렌은 광안정성이 높아 BPO와 비교적 호환 (Epiduo Forte는 의도적 조합),paper,"Allec J et al., J Am Acad Dermatol, 1997"
+HARD,알부틴,아스코빅애씨드,high,0.85,hydrolysis,낮은 pH에서 알부틴이 하이드로퀴논으로 가수분해 → 안전성 우려,paper,"Boissy RE et al., Exp Dermatol, 2005"
+HARD,알부틴,글라이콜릭애씨드,high,0.83,hydrolysis,AHA 강산성(pH<4)에서 알부틴 분해 위험,paper,"Boissy RE et al., Exp Dermatol, 2005"
+HARD,알부틴,살리실릭애씨드,medium,0.78,hydrolysis,BHA 산성 환경에서 알부틴 안정성 저하,blog,"Beautiful With Brains (Gio), 2019"
+HARD,만델릭애씨드,알부틴,medium,0.75,hydrolysis,AHA 산성에서 알부틴 가수분해 위험,blog,INCIDecoder (Judit Racz)
+HARD,벤조페논-3,비스-에칠헥실옥시페놀메톡시페닐트리아진,medium,0.78,photodegradation,UV 필터 간 광에너지 전달로 광분해 가속,paper,"Couteau C et al., Pharm Dev Technol, 2007"
+HARD,벤조페논-3,벤조페논-8,medium,0.75,photodegradation,"동일 계열 UV 필터 중복, 광에너지 흡수 경쟁",paper,"Couteau C et al., Pharm Dev Technol, 2007"
+HARD,에칠헥실메톡시신나메이트,징크옥사이드,medium,0.7,photodegradation,"ZnO 광촉매가 OMC 광분해 가속, 광안정성 저하",paper,"Mitchnick MA et al., J Am Acad Dermatol, 1999"
+HARD,글라이콜릭애씨드,트라이에탄올아민,high,0.92,pH_neutralization,강산 AHA(pH 3) + 알칼리(pH 10.5) 중화로 양쪽 효능 소실,paper,"Kornhauser A et al., Clin Cosmet Investig Dermatol, 2010"
+HARD,살리실릭애씨드,트라이에탄올아민,high,0.9,pH_neutralization,BHA 활성 pH(3-4) + 알칼리 중화로 효능 무효화,paper,"Kornhauser A et al., Clin Cosmet Investig Dermatol, 2010"
+HARD,락틱애씨드,트라이에탄올아민,medium,0.85,pH_neutralization,AHA 활성 pH 이탈로 각질박리 효능 무효화,paper,"Kornhauser A et al., Clin Cosmet Investig Dermatol, 2010"
+HARD,시스테인,벤조페논-3,low,0.65,oxidation,광노출 환경에서 시스테인 티올기 산화로 활성 손실,blog,Cosmetic Chemistry Notes (Perry Romanowski)
+HARD,글루코노락톤,암모늄은아연알루미늄실리케이트,medium,0.7,metal_chelation,PHA 카르복실기가 금속과 킬레이트 형성으로 양쪽 효능 저하,paper,"Personal Care Products Council (PCPC), 2020"
+HARD,아스코빅애씨드,글리시리직애씨드,low,0.65,pH_incompatibility,감초 활성 성분의 pH 호환 범위 충돌,blog,Cosmetic Chemistry Notes
+HARD,벤조일퍼옥사이드,아스코빅애씨드,high,0.9,oxidation_destruction,BPO 강산화 작용으로 비타민C 산화 및 분해 가속,paper,"Martin B et al., Br J Dermatol, 1998"
+HARD,하이드로퀴논,벤조일퍼옥사이드,high,0.85,oxidation_browning,하이드로퀴논 산화로 갈변 및 효능 손실 (퀴논 생성),paper,"DeCaprio AP, Crit Rev Toxicol, 1999"
+HARD,에스에이치-올리고펩타이드-1,글라이콜릭애씨드,high,0.95,protein_denaturation,"강산성에서 EGF 단백질 변성, 활성 완전 손실",paper,"Eskens O & Amin S, Int J Cosmet Sci, 2021"
+HARD,에스에이치-올리고펩타이드-1,코퍼트라이펩타이드-1,high,0.93,metal_oxidation,구리 이온이 EGF 산화 → 양쪽 활성 손실,paper,"Eskens O & Amin S, Int J Cosmet Sci, 2021"
+CONDITIONAL,글라이콜릭애씨드,만델릭애씨드,medium,0.78,irritation_cumulative,"AHA 중복, 둘 다 고함량(상위 position) 시 각질박리 과다",paper,"Tang SC & Yang JH, Molecules, 2018"
+CONDITIONAL,글라이콜릭애씨드,락틱애씨드,medium,0.85,irritation_cumulative,"AHA 중복, 5% 이상 함량 시 자극 누적 위험",paper,"Kornhauser A et al., Clin Cosmet Investig Dermatol, 2010"
+CONDITIONAL,글라이콜릭애씨드,말릭애씨드,medium,0.72,irritation_cumulative,"AHA 중복, 고함량 시 자극 누적",blog,INCIDecoder (Judit Racz)
+CONDITIONAL,만델릭애씨드,락틱애씨드,low,0.65,irritation_cumulative,"AHA 중복, 함량 따라 자극 누적",blog,Lab Muffin Beauty Science
+CONDITIONAL,글라이콜릭애씨드,살리실릭애씨드,medium,0.85,irritation_cumulative,"AHA+BHA 중첩, 둘 다 고함량 시 장벽 손상",paper,"Kornhauser A et al., Clin Cosmet Investig Dermatol, 2010"
+CONDITIONAL,락틱애씨드,살리실릭애씨드,medium,0.83,irritation_cumulative,"산성 활성 성분 중첩, 함량에 따라 장벽 손상",paper,"Kornhauser A et al., Clin Cosmet Investig Dermatol, 2010"
+CONDITIONAL,만델릭애씨드,살리실릭애씨드,medium,0.8,irritation_cumulative,"AHA+BHA 조합, 함량/빈도 조절 필요",blog,Beautiful With Brains (Gio)
+CONDITIONAL,아세틸헥사펩타이드-8,글라이콜릭애씨드,medium,0.72,pH_hydrolysis,"낮은 pH에서 펩타이드 결합 약화 가능, 함량 의존",paper,"Fields K et al., Clin Pharmacol Ther, 2009"
+CONDITIONAL,아세틸헥사펩타이드-8,살리실릭애씨드,low,0.65,pH_hydrolysis,"BHA 산성에서 펩타이드 부분 가수분해, 저함량이면 무관",paper,"Fields K et al., Clin Pharmacol Ther, 2009"
+CONDITIONAL,팔미토일펜타펩타이드-4,글라이콜릭애씨드,medium,0.75,pH_hydrolysis,"Matrixyl 안정 pH(6-8)에서 벗어나면 활성 저하, 고함량 시 위험",paper,"Schagen SK, Cosmetics, 2017"
+CONDITIONAL,메틸파라벤,소듐에틸파라벤,low,0.65,preservative_cumulative,"파라벤 누적 시 안전 한계 초과 위험, 단일 ≤0.4% 권장",paper,"Soni MG et al., Food Chem Toxicol, 2005 (CIR Final Report)"
+CONDITIONAL,메틸파라벤,소듐프로필파라벤,low,0.65,preservative_cumulative,"파라벤 누적 위험, EU 총량 0.8% 제한",paper,EU Cosmetics Regulation No 1223/2009
+CONDITIONAL,메틸파라벤,부틸파라벤,low,0.65,preservative_cumulative,"방부제 누적 위험, EU 부틸파라벤 0.14% 제한",paper,EU Cosmetics Regulation No 1223/2009
+CONDITIONAL,벤질알코올,메틸파라벤,low,0.6,preservative_cumulative,"방부제 시스템 중복, 자극 누적 가능",blog,Personal Care Magazine (방부제 가이드)
+CONDITIONAL,살리실릭애씨드,나이아신아마이드,low,0.6,pH_incompatibility,"pH 차이로 한쪽 효능 저하, 함량 낮으면 큰 문제 없음",blog,The Beauty Brains (Randy Schueller PhD)
+CONDITIONAL,아스코빅애씨드,살리실릭애씨드,medium,0.72,irritation_cumulative,"둘 다 산성, 비타민C 함량 높으면 자극 가중",blog,Lab Muffin Beauty Science
+CONDITIONAL,리모넨,아스코빅애씨드,medium,0.7,oxidation,"리모넨 산화물이 비타민C 분해 가속, 향료 고함량 시 위험",paper,"Karlberg AT et al., Contact Dermatitis, 2014"
+CONDITIONAL,리날룰,아스코빅애씨드,medium,0.68,oxidation,산화된 리날룰이 활성 성분 안정성 저하,paper,"Karlberg AT et al., Contact Dermatitis, 2014"
+CONDITIONAL,변성알코올,소듐하이알루로네이트,low,0.62,barrier_disruption,고함량 알코올이 히알루론산 보습 효과 상쇄,paper,"Ghadially R et al., J Clin Invest, 1995"
+CONDITIONAL,변성알코올,나이아신아마이드,low,0.55,barrier_disruption,알코올로 인한 장벽 약화 후 자극 증가,paper,"Ghadially R et al., J Clin Invest, 1995"
+CONDITIONAL,레티놀,나이아신아마이드,low,0.55,irritation_cumulative,"시간 분리 권장, 함량 의존적 자극",paper,"Hakozaki T et al., Br J Dermatol, 2002"
+CONDITIONAL,레티놀,리모넨,medium,0.7,oxidation,리모넨 산화물이 레티놀 분해 가속,paper,"Karlberg AT et al., Contact Dermatitis, 2014"
+CONDITIONAL,알부틴,나이아신아마이드,low,0.55,redundancy,"미백 메커니즘 중복, 자극 누적 가능",blog,Beautiful With Brains
+CONDITIONAL,아젤라익애씨드,글라이콜릭애씨드,medium,0.75,irritation_cumulative,"산성 활성 중복, 함량 의존",paper,"Sieber MA & Hegel JK, Drugs, 2014"
+CONDITIONAL,에틸아스코빅애씨드,나이아신아마이드,low,0.3,minor,안정형 비타민C는 충돌이 적지만 고함량 시 주의,blog,Beautiful With Brains
+LAYERING,글라이콜릭애씨드,나이아신아마이드,low,0.7,ph_sequence,산성 토너 → 흡수 대기(15분) → 나이아신아마이드 순서 권장,blog,INCIDecoder (Judit Racz)
+LAYERING,살리실릭애씨드,소듐하이알루로네이트,low,0.65,moisture_seal,BHA 흡수 후 보습 단계로 히알루론산,blog,Lab Muffin Beauty Science
+LAYERING,아스코빅애씨드,소듐하이알루로네이트,low,0.6,moisture_seal,비타민C 흡수 후 히알루론산으로 수분 봉인,blog,Lab Muffin Beauty Science
+LAYERING,아스코빅애씨드,벤조페논-3,medium,0.82,photoprotection_sequence,아침: 비타민C → UV 필터 순서로 광노화 방지 효과 증대,paper,"Lin JY et al., J Invest Dermatol, 2005"
+LAYERING,소듐하이알루로네이트,스쿠알란,low,0.85,moisture_seal,수용성 보습 → 지질 봉인 순서로 시너지,paper,"Draelos ZD, Dermatol Ther, 2018"
+LAYERING,나이아신아마이드,스쿠알란,low,0.8,moisture_seal,기능 성분 흡수 후 지질 장벽 강화,paper,"Draelos ZD, Dermatol Ther, 2018"
+LAYERING,알란토인,스쿠알란,low,0.75,moisture_seal,수용성 진정 성분 → 지질 봉인 순서 권장,blog,Skincare Edit
+LAYERING,살리실릭애씨드,글라이콜릭애씨드,medium,0.78,sequence_minimize_irritation,BHA(유성 침투) → AHA(수성 표면) 순서로 자극 최소화,blog,Beautiful With Brains (Gio)
+LAYERING,나이아신아마이드,소듐하이알루로네이트,low,0.75,moisture_seal,기능 성분 → 보습 봉인 순서 권장,blog,Skincare Edit
+LAYERING,알란토인,나이아신아마이드,low,0.65,soothing_first,진정 성분으로 자극 완화 후 기능 성분 도입,blog,Cosmetic Sequence Guide
+LAYERING,비사보롤,아스코빅애씨드,low,0.65,soothing_first,진정 성분으로 산성 자극 완화 후 비타민C 적용,blog,Cosmetic Sequence Guide
+LAYERING,아데노신,나이아신아마이드,low,0.65,sequence_active,기능 성분 순차 적용으로 양쪽 흡수 최적화,blog,Cosmetic Sequence Guide
+LAYERING,마데카소사이드,비사보롤,low,0.7,soothing_synergy_sequence,진정 성분 순차 적용으로 항염 효과 증대,blog,Cosmetic Sequence Guide
+LAYERING,센텔라아시아티카추출물,스쿠알란,low,0.75,moisture_seal,진정 활성 흡수 후 지질 봉인,blog,Skincare Edit
+LAYERING,판테놀,디메티콘,low,0.78,moisture_seal,수용성 보습 → 실리콘 폐색 봉인,paper,"Draelos ZD, Dermatol Ther, 2018"
+SYNERGY,아스코빅애씨드,토코페롤,high,0.95,antioxidant_regeneration,"비타민C+E: 4배 광보호 증대, 토코페릴 라디칼 재생",paper,"Lin JY et al., J Invest Dermatol, 2005"
+SYNERGY,아스코빅애씨드,페룰릭애씨드,high,0.97,stabilization_photoprotection,"C+E+Ferulic 황금조합: 8배 광보호, 비타민C 안정성 향상",paper,"Lin FH et al., J Invest Dermatol, 2005 (SkinCeuticals 임상)"
+SYNERGY,토코페롤,페룰릭애씨드,medium,0.92,antioxidant_synergy,비타민E 안정화 + 광보호 시너지,paper,"Lin FH et al., J Invest Dermatol, 2005"
+SYNERGY,레티놀,하이알루로닉애씨드,high,0.88,irritation_buffering,레티놀 자극 완화 + 효능 유지 (임상 입증),paper,"Mukherjee S et al., Clin Interv Aging, 2006"
+SYNERGY,레티놀,판테놀,medium,0.85,soothing_recovery,레티놀 자극 진정 및 회복 보조,paper,"Ebner F et al., Am J Clin Dermatol, 2002"
+SYNERGY,레티놀,세라마이드엔피,high,0.88,barrier_protection,"장벽 보호로 레티놀 부작용 감소, 효능 유지",paper,"Draelos ZD et al., J Cosmet Dermatol, 2018"
+SYNERGY,레티놀,팔미토일펜타펩타이드-4,high,0.82,antiaging_multipath,"콜라겐 합성 다경로 시너지, 안티에이징 증대",paper,"Schagen SK, Cosmetics, 2017"
+SYNERGY,바쿠치올,레티놀,medium,0.75,antiaging_synergy,"두 항노화 메커니즘 결합, 자극 감소",paper,"Dhaliwal S et al., Br J Dermatol, 2019"
+SYNERGY,하이알루로닉애씨드,세라마이드엔피,high,0.9,barrier_hydration,수분 흡수(HA) + 장벽 강화(세라마이드) 시너지,paper,"Lynde CW et al., J Cutan Med Surg, 2020"
+SYNERGY,나이아신아마이드,하이알루로닉애씨드,medium,0.78,hydration_barrier,"기능 성분 + 보습 시너지, 장벽 강화",paper,"Hakozaki T et al., Br J Dermatol, 2002"
+SYNERGY,베타글루칸,하이알루로닉애씨드,medium,0.82,hydration_immune,면역 활성화 + 보습 시너지,paper,"Du B et al., Polymers, 2019"
+SYNERGY,폴리글루타믹애씨드,소듐하이알루로네이트,medium,0.85,deep_hydration,이중 보습: PGA 표면 + HA 진피 침투,paper,"Park SB et al., J Microbiol Biotechnol, 2005"
+SYNERGY,아젤라익애씨드,나이아신아마이드,high,0.85,pigmentation_multipath,"여드름 + 색소침착 다중 표적, 임상 입증",paper,"Sieber MA & Hegel JK, Drugs, 2014"
+SYNERGY,트라넥사믹애씨드,나이아신아마이드,high,0.85,pigmentation_multipath,"기미 다중 경로 차단 시너지, 멜라닌 전달 + 합성 동시 억제",paper,"Lee JH et al., Acta Derm Venereol, 2014"
+SYNERGY,감초추출물,나이아신아마이드,medium,0.78,pigmentation_inflammation,글라브리딘 미백 + 나이아신아마이드 멜라닌 전달 억제,paper,"Yokota T et al., Pigment Cell Res, 1998"
+SYNERGY,아스코빅애씨드,글루타치온,medium,0.85,antioxidant_recycling,"비타민C가 글루타치온 환원형 유지, 항산화 사이클 강화",paper,"Pullar JM et al., Nutrients, 2017"
+SYNERGY,징크옥사이드,옥토크릴렌,medium,0.8,photoprotection_combined,"물리+화학 차단제 광보호 시너지, 광범위 UVA/UVB 커버",paper,"Sambandan DR & Ratner D, J Am Acad Dermatol, 2011"
+SYNERGY,에칠헥실메톡시신나메이트,옥토크릴렌,high,0.88,photostabilization,옥토크릴렌이 OMC 광안정성 향상,paper,"Chatelain E & Gabard B, Photochem Photobiol, 2001"
+SYNERGY,에칠헥실살리실레이트,벤조페논-3,medium,0.75,photostabilization,Octisalate가 Avobenzone/Oxybenzone 광안정화,paper,"Couteau C et al., Pharm Dev Technol, 2007"
+SYNERGY,센텔라아시아티카추출물,마데카식애씨드,high,0.92,soothing_multipath,병풀 활성 성분 동반 사용으로 항염 강화 (TECA 효과),paper,"Bylka W et al., Postepy Dermatol Alergol, 2013"
+SYNERGY,판테놀,센텔라아시아티카추출물,medium,0.85,wound_healing,"상처 치유 + 진정 시너지, 회복 가속화",paper,"Bylka W et al., Postepy Dermatol Alergol, 2013"
+SYNERGY,비사보롤,알란토인,medium,0.8,soothing_synergy,"캐모마일 활성 + 진정 시너지, 항염 효과 증대",paper,"Maurer M et al., Dermatology, 2008"
+SYNERGY,레스베라트롤,토코페롤,medium,0.85,antioxidant_synergy,"폴리페놀 + 비타민E 시너지, 시르투인 활성화",paper,"Baxter RA, J Cosmet Dermatol, 2008"
+SYNERGY,유비퀴논,토코페롤,medium,0.8,antioxidant_recycling,"CoQ10이 비타민E 재생, 항산화 사이클",paper,"Hoppe U et al., Biofactors, 1999"
+SYNERGY,이데베논,토코페롤,medium,0.78,antioxidant_synergy,강력 항산화제 동반 시너지,paper,"McDaniel DH et al., Dermatol Ther, 2005"
+SYNERGY,코퍼트라이펩타이드-1,하이알루로닉애씨드,medium,0.8,healing_hydration,상처 치유(GHK-Cu) + 보습(HA) 시너지,paper,"Pickart L, Curr Med Chem, 2008"
+SYNERGY,팔미토일펜타펩타이드-4,팔미토일트라이펩타이드-1,medium,0.78,antiaging_synergy,Matrixyl + Pal-GHK 다중 콜라겐 합성 경로,paper,"Fields K et al., Clin Pharmacol Ther, 2009"
+SYNERGY,아세틸글루타밀헵타펩타이드-1,팔미토일펜타펩타이드-4,medium,0.82,antiaging_multipath,표정주름(SNAP-8) + 콜라겐(Matrixyl) 동시 작용,paper,"Wang Y et al., Int J Cosmet Sci, 2013"
+SYNERGY,벤조일퍼옥사이드,아다팔렌,high,0.92,acne_multipath,"여드름 다중 표적 (광안정 레티노이드 한정, Epiduo Forte 임상 입증)",paper,"Gold LS et al., J Am Acad Dermatol, 2013"
+SYNERGY,디소듐이디티에이,아스코빅애씨드,medium,0.85,stabilization_chelation,EDTA가 금속 이온 킬레이션으로 비타민C 산화 방지,paper,"Pinnell SR, J Am Acad Dermatol, 2003"
